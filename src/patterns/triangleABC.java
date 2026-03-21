@@ -9,7 +9,7 @@ public class triangleABC {
         int n = pat.nextInt();
         for (int i =1;i<=n;i++){
             for (int j =1;j<=i;j++){
-                System.out.print( (char)(j+64) +"  ");  // CHAR is used for Alphabets ,If ROW is same then print "i" and if COlUMN is same print "j"
+                System.out.print( (char)(j+64) +"  ");  // CHAR is used for Alphabet ,If ROW is same then print "i" and if COlUMN is same print "j"
             }
             System.out.println();
         }

@@ -1,4 +1,4 @@
-//// ONE MORE METHOD ( "BUT NOT STANDARD" )
+//// ONE MORE METHOD ( "BUT NOT STANDARD" ) only for *.
 //
 //
 //package patterns;
@@ -26,7 +26,7 @@ package patterns;
 
 import java.util.Scanner;
 
-public class starTriangleFlipH {
+public class triangleFlipHorStar {
 
     public static void main(String[] args) {
         Scanner pat = new Scanner(System.in);

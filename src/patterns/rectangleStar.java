@@ -2,7 +2,7 @@ package patterns;
 
 import java.util.Scanner;
 
-public class starRectangle {
+public class rectangleStar {
     public static void main(String[] args) {
         Scanner pat = new Scanner(System.in);
         System.out.println("Enter number of row ");

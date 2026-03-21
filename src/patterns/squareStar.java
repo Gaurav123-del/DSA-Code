@@ -2,7 +2,7 @@ package patterns;
 
 import java.util.Scanner;
 
-public class starSquare {
+public class squareStar {
     public static void main(String[] args) {
         Scanner pat = new Scanner(System.in);
         System.out.print("Enter Number of row or col = ");
