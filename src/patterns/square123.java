@@ -9,7 +9,7 @@ public class square123 {
         int n = pat.nextInt();
         for (int i =1;i<=n;i++){
             for (int j =1;j<=n;j++){
-                System.out.print(j+"  ");  //If ROW is same then print "i" and if COlUMN is same print "j"
+                System.out.print(j+"  ");  // to print Numbers ,If ROW is same then print "i" and if COlUMN is same print "j"
             }
             System.out.println();
         }
