@@ -8,7 +8,7 @@ public class triangleStar {
         System.out.print("Enter Number of row or col = ");
         int n = pat.nextInt();
         for (int i =1;i<=n;i++){
-            for (int j =1;j<=i;j++){    /// if print triangle then condition is  < j<= i >.
+            for (int j =1;j<=i;j++){    // if print triangle then condition is  < j<= i >.
                 System.out.print("*"+"  ");
             }
             System.out.println();
