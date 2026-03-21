@@ -9,7 +9,7 @@ public class squareABC {
         int n = pat.nextInt();
         for (int i =1;i<=n;i++){
             for (int j =1;j<=n;j++){
-                System.out.print((char)(j+64) +"  ");
+                System.out.print((char)(j+64) +"  ");   //ASCII values: A (uppercase) → 65 ; a (lowercase) → 97 .
             }
             System.out.println();
         }
