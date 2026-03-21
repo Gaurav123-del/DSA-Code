@@ -17,5 +17,4 @@ public class square_aA {
                 System.out.println();
             }
         }
-
 }
