@@ -4,7 +4,7 @@
 //
 //import java.util.Scanner;
 //
-//public class triangleVFABC {
+//public class triangleVF123 {
 //    public static void main(String[] args) {
 //        Scanner pat = new Scanner(System.in);
 //        System.out.print("Enter Number of row or col = ");
@@ -14,7 +14,7 @@
 //                System.out.print(" "+"  ");
 //            }
 //            for (int k=1 ;k<=i ;k++){
-//                System.out.print((char) (k+64)+"  ");
+//                System.out.print(i+"  ");
 //            }
 //            System.out.println();
 //        }
@@ -23,13 +23,12 @@
 
 
 
-//STANDARD METHODS .
 
 package patterns;
 
 import java.util.Scanner;
 
-public class triangleVFABC {
+public class triangleVF123 {
     public static void main(String[] args) {
         Scanner pat = new Scanner(System.in);
         System.out.print("Enter Number of row or col = ");
@@ -39,7 +38,7 @@ public class triangleVFABC {
                 System.out.print(" "+"  ");
             }
             for (int k=1 ;k<=i ;k++){
-                System.out.print((char) (i+64)+"  ");
+                System.out.print(k+"  ");
             }
             System.out.println();
         }

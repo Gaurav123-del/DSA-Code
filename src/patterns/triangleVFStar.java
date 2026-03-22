@@ -44,7 +44,6 @@
 //}
 
 
-
 //STANDARD METHODS .
 package patterns;
 
