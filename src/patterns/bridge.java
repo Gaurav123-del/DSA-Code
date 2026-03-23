@@ -1,4 +1,5 @@
-//package patterns;
+// // EXTRA VARIABLE  < col >
+// package patterns;
 //
 //import java.util.Scanner;
 //
@@ -32,7 +33,7 @@
 //}
 
 
-//  Use Math ( ONE < * > IS ERROR)
+//  //Use Math
 //
 //package patterns;
 //
@@ -54,15 +55,17 @@
 //
 //            //  Middle dashes (only from 2nd row)
 //            for (int j = 1; j <= 2 * i - 3; j++) {
-//                if (i > 1) {
+//                {
 //                    System.out.print("   ");
 //                }
 //            }
 //
 //            //  Right stars
 //            for (int k = 1; k <= n - i +1; k++) {
-//
-//                System.out.print("*  ");
+//                if( i==1 && k==5)   // Use to remove one extra STAR
+//                    System.out.print("   ");
+//                else
+//                    System.out.print("*  ");
 //            }
 //
 //            System.out.println();
@@ -71,7 +74,7 @@
 //}
 
 
-// STANDARD METHODS
+ // STANDARD METHODS
 
 package patterns;
 
