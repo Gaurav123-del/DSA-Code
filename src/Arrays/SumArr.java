@@ -12,6 +12,7 @@ public class SumArr {
         for (int i=0;i<n;i++) {
             arr[i] = ar.nextInt();
         }
+        System.out.print("Sum of elements: ");
         int sum =0;
         for ( int i =0; i<n ;i++){
             sum +=arr[i];
